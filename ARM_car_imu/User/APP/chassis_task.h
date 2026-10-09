@@ -8,8 +8,8 @@
 #define CHASSIS_WHEEL_R         0.0425f       /* 轮半径 [m] (直径18cm) */
 #define CHASSIS_TRACK_WIDTH     0.24f       /* 轮距(左右轮间距) [m] (37cm) */
 
-#define CHASSIS_MAX_V           0.8f        /* 最大线速度 [m/s] */
-#define CHASSIS_MAX_W           3.14f     /* 最大角速度 [rad/s] (一圈≈4s) */
+#define CHASSIS_MAX_V           0.4f        /* 最大线速度 [m/s] */
+#define CHASSIS_MAX_W           1.57f     /* 最大角速度 [rad/s] (一圈≈8s) */
 
 #define WHEEL_RAD_TO_RPM        (60.0f / (2.0f * 3.1415926f * CHASSIS_WHEEL_R))  /* 线速度→转速 [m/s → rpm] */
 
